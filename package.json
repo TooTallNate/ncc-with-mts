@@ -8,7 +8,7 @@
 		"dev": "ts-node src/main.ts",
 		"test": "yarn node --experimental-vm-modules $(yarn bin jest)",
 		"prebuild": "rm -rf dist",
-		"build": "ncc build src/main.ts"
+		"build": "ncc build --source-map src/main.ts"
 	},
 	"keywords": [],
 	"author": "",
