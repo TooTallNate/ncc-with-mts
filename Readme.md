@@ -4,7 +4,7 @@ This is a proof-of-concept for a Node.js CLI application that is:
 * Outputs ESM module syntax
 * Compiled into a bundle using `@vercel/ncc`
 * Has tests using `jest` and `ts-jest`
-* Has "dev mode" using `ts-node` with SWC
+* Has "dev mode" with `ts-node` using SWC and ESM mode
 
 Relevant documentation:
 
@@ -12,3 +12,5 @@ Relevant documentation:
 * [`__dirname` replacement](https://blog.logrocket.com/alternatives-dirname-node-js-es-modules/)
 * [Jest's ESM Support docs](https://jestjs.io/docs/ecmascript-modules)
 * [`ts-jest` ESM Support docs](https://kulshekhar.github.io/ts-jest/docs/guides/esm-support/)
+* [`ts-node` SWC docs](https://typestrong.org/ts-node/docs/swc)
+* [`ts-node` ESM docs](https://typestrong.org/ts-node/docs/imports#native-ecmascript-modules)
