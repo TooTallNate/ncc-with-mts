@@ -31,5 +31,9 @@
 		"useDefineForClassFields": true,
 		"forceConsistentCasingInFileNames": true,
 		"skipLibCheck": true
+	},
+	"ts-node": {
+		"esm": true,
+		"swc": true
 	}
 }
